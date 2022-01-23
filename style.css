@@ -10,6 +10,10 @@ body {
 a {
   text-decoration: none;
 }
+
+/* 
+*carousel area style
+*/
 .carousel-item img {
   width: 100%;
   height: 550px;
@@ -22,22 +26,29 @@ a {
   text-align: center;
 }
 
+/* 
+* our best package area style
+*/
+
 .package-text {
   margin: 90px 0;
 }
+
 .best-package {
   height: 480px;
-  margin: -41px 0;
+  margin: -39px 0;
   background: #9631d5ed;
   color: white;
-  position: ;
+  position: relative;
 }
+
 .badge-hot {
   position: absolute;
   right: 25%;
   background: red;
   top: -10px;
 }
+
 a.best-price-btn {
   background: #ffffff;
   border-radius: 24px;
@@ -53,7 +64,7 @@ a.best-price-btn:hover {
   color: white;
 }
 
-/* facilities */
+/* our best facilities */
 .home-content img {
   height: 250px;
   width: 260px;
@@ -70,6 +81,7 @@ h2.contact-us {
   padding: 0px 6px;
 }
 
+/* footer icon area style */
 i.fab.fa-apple {
   font-size: 40px;
 }

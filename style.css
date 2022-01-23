@@ -1,10 +1,14 @@
 /* poppins font */
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 /* =======================
 *Common css style
 ===========================*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
+  background-color: #e5e5e55c;
+}
+a {
+  text-decoration: none;
 }
 .carousel-item img {
   width: 100%;
@@ -16,4 +20,39 @@ body {
   font-size: 48px;
   line-height: 58px;
   text-align: center;
+}
+
+.package-text {
+  margin: 90px 0;
+}
+.best-package {
+  height: 480px;
+  margin: -41px 0;
+  background: #9631d5ed;
+  color: white;
+}
+a.best-price-btn {
+  background: #ffffff;
+  border-radius: 24px;
+  text-decoration: none;
+  padding: 10px 45px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+a.best-price-btn:hover {
+  background: #9b3ed6;
+  border: 1px solid white;
+  color: white;
+}
+i.fab.fa-apple {
+  font-size: 40px;
+}
+.apple-icon p {
+  margin: 0;
+  font-size: 12px !important;
+}
+
+footer {
+  background: #0b0d17;
 }
